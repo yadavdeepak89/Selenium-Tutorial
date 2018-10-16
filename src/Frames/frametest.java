@@ -13,6 +13,7 @@ public class frametest {
 		WebDriver driver=new ChromeDriver();
 		
 		driver.get("https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_submit_get");
+		
 		//move on Frame
 		//driver.switchTo().frame(1);
 		//driver.findElement(By.xpath("html/body/button")).click();

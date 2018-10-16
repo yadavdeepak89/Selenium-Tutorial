@@ -11,7 +11,7 @@ public class staticdropdown {
 	public static void main(String[] args) {
 		System.setProperty("wedriver.chrome.driver", "F:\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
-		
+		//Test
 		driver.get("https://www.znetlive.com/shared-hosting/");
 		WebElement ele=driver.findElement(By.xpath("html/body/div[3]/div/div/form[1]/div/div/div[2]/select"));
 		//ele.sendKeys("2 years at 2.14/month (1% off )");
